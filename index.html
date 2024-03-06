@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <title>Dimas CV</title>
+  </head>
+  <body>
+    <header>
+      <a href="#about" class="logo">👨‍🏫</a>
+      <nav>
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <div class="about-container">
+          <div class="image-container">
+            <img src="./assets/img.jpeg" alt="Dimas Image" />
+            <h2>Let me introduce <br /><span>myself</span></h2>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+              repellat amet expedita inventore temporibus, hic nam eum aut
+              sapiente quis. Excepturi tempora eaque provident quos at sit culpa
+              quasi voluptas!
+            </p>
+            <ul>
+              <li>
+                <p>Dimas J. Poch</p>
+              </li>
+              <li>
+                <p>Fullstack Student</p>
+              </li>
+              <li>
+                <a href="www.thepowermba">The Power MBA</a>
+              </li>
+              <li><a href="dimasjimenezpoch@gmail.com">Send me an email</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <form action="">
+          <label for="filter"><span role="img">🔍</span></label>
+          <input
+            type="text"
+            name="filter"
+            id="filter"
+            onkeyup="filterSkills()"
+            placeholder="filter name || %" />
+        </form>
+        <ul class="skills-list" id="skill-elements">
+          <li>
+            <p><strong>80%</strong> HTML5</p>
+          </li>
+          <li>
+            <p><strong>60%</strong> CSS3</p>
+          </li>
+          <li>
+            <p><strong>80%</strong> JS</p>
+          </li>
+          <li>
+            <p><strong>80%</strong> NODEJS</p>
+          </li>
+          <li>
+            <p><strong>80%</strong> REACTJS</p>
+          </li>
+          <li>
+            <p><strong>80%</strong> MONGO</p>
+          </li>
+          <li>
+            <p><strong>80%</strong> SQL</p>
+          </li>
+          <li>
+            <p><strong>80%</strong> TESTING</p>
+          </li>
+          <li>
+            <p><strong>20%</strong> FIGMA</p>
+          </li>
+        </ul>
+      </section>
+      <section class="contact-container" id="contact">
+        <h2>Contact</h2>
+        <div>
+          <a class="cta" href="mailto:dimasjimenezpoch@gmail.com">Hire me</a>
+          <a class="cta" href="#" download="cv">Download CV</a>
+        </div>
+      </section>
+    </main>
+    <footer>Created by Dimas J Poch @2024</footer>
+  </body>
+</html>
